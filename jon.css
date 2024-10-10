@@ -1,0 +1,67 @@
+body  {
+  border: 20px frame white;
+  color: white;
+  background-color: #170956;
+  
+}
+@keyframes blink {
+    70% { opacity: 1; }
+    30% { opacity: 0; }
+    90% { opacity: 1; }
+}
+
+h1 {
+  
+    text-align: center;
+    animation: blink 2s step-start infinite;
+  background-color: black;
+  font-family: 'Georgia', serif;
+    color: white;
+    border: 5px solid yellow;
+     text-shadow: 
+        -1px -1px 0 white,  
+         1px -1px 0 red,
+        -1px  1px 0 red,
+         1px  1px 0 red;
+}
+
+img {
+  border-radius: 20%;
+  border: 5px solid Black;
+    position: absolute; /* Harus menggunakan posisi absolute agar bisa digeser */
+    cursor: grab; /* Menunjukkan bahwa gambar bisa digeser */
+    box-shadow:   -5px -5px 0 #eeb733,  
+         1px -5px 0 red,
+        -5px  5px 0 red,
+         5px  1px 0 #eeb733;
+
+  
+}
+h2 {   
+   background-color: black;
+    font-family: 'Georgia', serif;
+    
+
+    padding: 10px;
+    border: 5px solid yellow;
+
+    
+    
+    
+    
+    border-radius: 10%;
+        font-size: 48px; /* Atur ukuran font sesuai kebutuhan */
+    color: #ffffff; /* Warna teks utama */
+    text-shadow: 
+        -1px -1px 0 #ff0000,  
+         1px -1px 0 #ff0000,
+        -1px  1px 0 #ff0000,
+         1px  1px 0 #ff0000;
+
+
+}
+
+
+
+
+}
